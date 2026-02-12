@@ -1,0 +1,33 @@
+{
+  "name": "luminav-films-backend",
+  "version": "1.0.0",
+  "description": "Backend server for Luminav Films website",
+  "main": "backend-server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend-server.js",
+    "dev": "nodemon backend-server.js"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "backend",
+    "luminav-films"
+  ],
+  "author": "Luminav Films",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "bcrypt": "^5.1.0",
+    "jsonwebtoken": "^9.0.0",
+    "aws-sdk": "^2.1490.0",
+    "uuid": "^9.0.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
